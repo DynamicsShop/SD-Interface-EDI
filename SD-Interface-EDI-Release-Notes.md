@@ -1,5 +1,21 @@
 ## SD Interface EDI Releases
 
+### 6.0.1
+
+#### Enhancements
+
+- BCv21 App - Drag and drop file management was added to SD Interface EDI to upload and delete files to Azure Blob Storage.
+
+- BCv21 App - A new Message List with a FactBox was created to allow for upload, deletion and download of files to and from Azure Blob Storage.
+
+- BCv21 App - Functionality was added to allow for drag and drop of multiple files to the Azure Files FactBox.
+
+- BCv21 App - A change was made to allow for selection of multiple files in the Azure Files FactBox for deletion.
+
+- BCv21 App - A change was made to prompt the user when they choose to delete files from the Azure Files FactBox.
+
+- BCv21 App - The Delete Line action in the Azure Files FactBox was removed as the delete action is used to delete the files.
+
 ### 6.0.0
 
 #### Enhancements
