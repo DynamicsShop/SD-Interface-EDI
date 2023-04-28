@@ -1,10 +1,16 @@
 ## SD Interface EDI Releases
 
+### 6.0.3
+
+#### Enhancements
+
+- AppSource App - Minor Mods were made to the File Folder Allocations for Sales Orders and Purchase Order Confirmation files for a specific Batch implementation.
+
 ### 6.0.2
 
 #### Enhancements
 
-- AppSource App - Multiple files for multiple peers may be received from a VAN in a single file dump. File Allocations in SD Interface EDI allows you to specify how you want these files allocated to the different folders in azure blob storage for message processing.
+- AppSource App - Multiple files for multiple peers may be received from a VAN in a single file dump. File Allocations in SD Interface EDI allows you to specify how you want these files allocated to the different folders in azure blob storage for message processing. This functionality can be extended for specific VANs.
 
 - AppSource App - A new field PO Confirmation Implementation was added to the SD Interface EDI Message Types table and list to allow for easy setup of site specific functionality for individual message types.
 
