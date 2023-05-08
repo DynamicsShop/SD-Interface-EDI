@@ -1,5 +1,19 @@
 ## SD Interface EDI Releases
 
+### 6.0.5
+
+#### Enhancements
+
+- AppSource App - A change was made to create Outbound Purchase Order messages only for released Purchase Orders.
+
+- AppSource App - An event was surfaced in the SDY EDI Queue Manager codeunit to allow application of specific filters to Outbound Purchase Orders during Outbound Message creation.
+
+### 6.0.4
+
+#### Bug Fixes
+
+- AppSource App - Fixed an issue where Sales Order Acknowledgements were not created if entries for the inbound Sales Order exist in the EDI History Log.
+
 ### 6.0.3
 
 #### Enhancements
