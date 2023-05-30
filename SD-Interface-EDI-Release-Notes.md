@@ -1,5 +1,23 @@
 ## SD Interface EDI Releases
 
+### 6.0.6
+
+#### Enhancements
+
+- AppSource App - A new field, Max Documents Per Queue, was added to the SD EDI Setup Card to limit the amount of documents that can be added to a queue. Business Central by default closes the API call to the EDI transformation function if a response is not received back after a certain amount of time.
+
+- AppSource App - Functionality was added to allow for file deletion from the File Allocation lists which also deletes the files from Azure Blob storage.
+
+- AppSource App - The Document Log action was surfaced on the SD EDI Worksheet.
+
+- AppSource App - An event was added to Sales Order Processing in the SD EDI Queue to allow for an extension to give warnings instead of errors when items cannot be found on incoming sales orders.
+
+#### Bug Fixes
+
+- AppSource App - When generating Outbound Messages for Sales Credit Notes and Sales Invoices, if documents existed with no lines on the document, then an error was raised. This was fixed.
+
+- AppSource App - In Live Mode the Filename Series was not being used if the Multiple Documents per File option was turned on for Outbound Message Types.
+
 ### 6.0.5
 
 #### Enhancements
