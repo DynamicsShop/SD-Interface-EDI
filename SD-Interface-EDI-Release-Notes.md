@@ -1,5 +1,15 @@
 ## SD Interface EDI Releases
 
+### 6.0.7
+
+#### Enhancements
+
+- AppSource App - A new SD EDI Interface History List was created. This list allows users to search for individual processed documents. This list is accessible by drilling through on the History Documents cue on the SD Interface EDI Role Centre.
+
+#### Bug Fixes
+
+- AppSource App - Choosing the Remove Selected action in the EDI Worksheet did not always refresh the remaining records correctly. Users had to choose to refresh the EDI Worksheet page. This was fixed.
+
 ### 6.0.6
 
 #### Enhancements
