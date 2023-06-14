@@ -1,5 +1,11 @@
 ## SD Interface EDI Releases
 
+### 6.0.8
+
+#### Enhancements
+
+- AppSource App - A function to get the PO record was added to the BatchPOConfirmation Codeunit. 
+
 ### 6.0.7
 
 #### Enhancements
