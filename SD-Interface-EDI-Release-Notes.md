@@ -1,5 +1,11 @@
 ## SD Interface EDI Releases
 
+### 6.0.9
+
+#### Bug Fixes
+
+- AppSource App - Fixed an issue where a message stating that the record in table SDY EDI History already exists is being intermittently raised. 
+
 ### 6.0.8
 
 #### Enhancements
