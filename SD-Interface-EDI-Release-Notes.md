@@ -1,5 +1,19 @@
 ## SD Interface EDI Releases
 
+### 6.1.0
+
+- AppSource App - Multiple files for multiple peers may be received from a VAN in a single file dump. File Allocations in SD Interface EDI allows you to specify how you want these files allocated to the different folders in azure blob storage for message processing. This functionality has been extended for Celtrino.
+
+- AppSource App - An event was added to place filters on incoming documents.
+
+- AppSource App - An event was added that would allow for situations where an inbound Purchase Order Acknowledgement could come through more than once.
+
+- AppSource App - An event was added to handle situations where an item does not exist on an incoming Sales Order.
+
+- AppSource App -  An event was added to allow for custom routines to be called before the standard SD Ineterface EDI file allocation routine is run.
+
+- AppSource App - A new File Structure Template for PIPE_IN was created.
+
 ### 6.0.9
 
 #### Bug Fixes
