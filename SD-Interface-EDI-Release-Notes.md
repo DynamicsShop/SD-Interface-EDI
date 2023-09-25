@@ -10,7 +10,7 @@
 
 - AppSource App - An event was added to handle situations where an item does not exist on an incoming Sales Order.
 
-- AppSource App -  An event was added to allow for custom routines to be called before the standard SD Ineterface EDI file allocation routine is run.
+- AppSource App -  An event was added to allow for custom routines to be called before the standard SD Interface EDI file allocation routine is run.
 
 - AppSource App - A new File Structure Template for PIPE_IN was created.
 
