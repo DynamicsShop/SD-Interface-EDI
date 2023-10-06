@@ -1,6 +1,30 @@
 ## SD Interface EDI Releases
 
+### 6.2.0
+
+#### Enhancements
+
+- AppSource App - The Create Outbound Messages action was changed to exclude the Master Data document type.
+
+- AppSource App - New functionality was added to create outbound Master Data files.
+
+- AppSource App - New actions were added to the SD Interface EDI Role Centre and Worksheet to create Master Data files.
+
+- AppSource App - A new Wasp message type was created for Customer Master Data.
+
+- AppSource App - A new Wasp message type was created for Item Master Data.
+
+- AppSource App - A new Wasp message type was created for Inbound Sales Orders
+
+#### Bug Fixes
+
+- AppSource App - Files were not deleted from blob storage when creating inbound queues for Peers that had the Multiple Documents Per File option on. This was fixed.
+
+- AppSource App - An event that was exposed to handle situations where an item does not exist on an incoming Sales Order was changed so that the default behaviour is to raise an error when the message is processed.
+
 ### 6.1.0
+
+#### Enhancements
 
 - AppSource App - Multiple files for multiple peers may be received from a VAN in a single file dump. File Allocations in SD Interface EDI allows you to specify how you want these files allocated to the different folders in azure blob storage for message processing. This functionality has been extended for Celtrino.
 
