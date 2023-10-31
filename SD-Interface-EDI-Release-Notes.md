@@ -1,5 +1,37 @@
 ## SD Interface EDI Releases
 
+### 7.0.0
+
+#### Enhancements
+
+- AppSource App - Functionality was created for File Transfer Capability using Azure functions. 
+
+- AppSource App - File Transfer implementation was added to the VAN Card. 
+
+- AppSource App - Functionality was created to allow for inbound file preprocessing capabilities. 
+
+- AppSource App - A new inbound file preprocessing capability was implemented for Wasp. 
+
+- AppSource App - Multiple files for multiple peers may be received from a VAN in a single file dump. File Allocations in SD Interface EDI allows you to specify how you want these files allocated to the different folders in azure blob storage for message processing. This functionality has been extended for Wasp. 
+
+- AppSource App - Master Data Field Filters were added to the SD Interface EDI Message Card. 
+
+- AppSource App - A File Transfer cue was added to the Role Centre. 
+
+- AppSource App - Changes were made to some field captions and properties on fields in the File Transfer Settings FastTab on the VAN Card. 
+
+- AppSource App - A small number of UI changes were made to the SD Interface EDI History Document List. 
+
+- AppSource App - Tooltips on the SD Interface EDI Setup Card were updated. 
+
+- AppSource App - Some fields on the VAN Card were recaptioned. 
+
+- AppSource App - ToolTips were updated on the VAN Card. 
+
+#### Bug Fixes
+
+- AppSource App - When requeuing a history file the container name was not revalidated. This was fixed. 
+
 ### 6.2.0
 
 #### Enhancements
