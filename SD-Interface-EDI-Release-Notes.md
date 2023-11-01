@@ -1,5 +1,11 @@
 ## SD Interface EDI Releases
 
+### 7.0.1
+
+#### Enhancements
+
+- AppSource App - A new Identifier Caption field was added to the VAT Identifiers FastTab on the VAN Card. This field can be used to display an alternative value for the VAT Identifier at message summary level for VAT details if required.
+
 ### 7.0.0
 
 #### Enhancements
