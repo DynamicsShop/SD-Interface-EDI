@@ -1,5 +1,13 @@
 ## SD Interface EDI Releases
 
+### 7.0.2
+
+#### Enhancements
+
+AppSource App - The File Name Mask field on the Messages table was not used elsewhere in the App. The field was updated to Filename and is now used as the filename for Outbound Master Data Files in Live mode.  If a Filename is not entered, then the Filename Series is used for Outbound Master Data files.  
+
+AppSource App - A minor change was made to the FTP connection functionality.
+
 ### 7.0.1
 
 #### Enhancements
