@@ -1,5 +1,13 @@
 ## SD Interface EDI Releases
 
+### 7.0.3
+
+#### Enhancements
+
+- AppSource App - An extension was created on certain standard tables to stamp the VAN Code on the Credit Notes, Sales Order Acknowledgement, Sales Invoices, Sales Shipments, Purchase Orders, incoming Purchase Order Confirmations and incoming Sales Orders. The VAN Code field is not surfaced on any pages but allows sites to distinguish which VAN is associated with the document.
+
+- AppSource App - Allow filtering of outbound messages at message card level. This allows for situations where a site might not want every document type set up to send through SD Interface EDI to be added to the outbound queue. Outbound messages include Sales Credit Note, Sales Invoice, Sales Order Acknowledgement, Purchase Order, and Sales Shipment. 
+
 ### 7.0.2
 
 #### Enhancements
