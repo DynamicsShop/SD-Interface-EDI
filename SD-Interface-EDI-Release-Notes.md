@@ -1,5 +1,13 @@
 ## SD Interface EDI Releases
 
+### 7.0.4
+
+#### Enhancements
+
+- AppSource App - A change was made to Master Data Messages. The System Record ID is now used to generate the Master Data records.
+
+- AppSource App - For Messages of Document Type Master Data the Multiple Documents per File checkbox is set to enabled by default and cannot be edited.  
+
 ### 7.0.3
 
 #### Enhancements
