@@ -1,5 +1,19 @@
 ## SD Interface EDI Releases
 
+### 7.0.5
+
+#### Enhancements
+
+- AppSource App - A new option was added to the VAN Card to allow for insertion of blocked items on creation of inbound orders.
+
+- AppSource App - A new option was added to the VAN Card to allow auto release of EDI Sales Orders on creation.
+
+- AppSource App - A change was made to the VAT Summary Calculation on Outbound Messages.
+
+- AppSource App - The links in the About page were updated.
+
+- AppSource App - Some ToolTips on the VAN Card were updated.
+
 ### 7.0.4
 
 #### Enhancements
