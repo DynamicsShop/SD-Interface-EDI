@@ -1,5 +1,15 @@
 ## SD Interface EDI Releases
 
+### 7.0.6
+
+#### Enhancements
+
+- AppSource App - Some file allocation enhancements were made for Celtrino. The VANs GLN number is now picked up from the incoming file.
+
+#### Bug Fixes
+
+- AppSource App - The azure function that transfers files from blob storage to a folder in sftp was copying files to two locations.
+
 ### 7.0.5
 
 #### Enhancements
