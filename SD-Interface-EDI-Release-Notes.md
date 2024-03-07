@@ -1,5 +1,13 @@
 ## SD Interface EDI Releases
 
+### 7.0.7
+
+#### Enhancements
+
+- AppSource App - A change was made to allow for unidirectional sftp transfer of files in SD Interface EDI.
+
+- AppSource App - The logo in the SD Interface EDI App was updated to use our new logo.
+
 ### 7.0.6
 
 #### Enhancements
