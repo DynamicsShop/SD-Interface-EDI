@@ -1,5 +1,13 @@
 ## SD Interface EDI Releases
 
+### 7.0.8
+
+#### Enhancements
+
+- AppSource App - A new event OnBeforeItemParseFailure was added to codeunit 43012017 SDY EDI PO. Conf. Batch.
+
+- AppSource App - Changes were made to the Export File routine surfaced in the SD Interface EDI Setup Card.
+
 ### 7.0.7
 
 #### Enhancements
