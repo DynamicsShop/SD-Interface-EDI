@@ -8,6 +8,8 @@
 
 - AppSource App - Changes were made to the Export File routine surfaced in the SD Interface EDI Setup Card.
 
+- AppSource App - A change was made to the import of Assisted Data Setup.
+
 ### 7.0.7
 
 #### Enhancements
