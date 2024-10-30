@@ -1,15 +1,25 @@
 ## SD Interface EDI Releases
 
-### 7.0.8
+### 7.1.0
 
 #### Enhancements
 
-- AppSource App - A new event OnBeforeItemParseFailure was added to codeunit 43012017 SDY EDI PO. Conf. Batch.
+- AppSource App - A new event OnBeforeItemParseFailure was added to Codeunit 43012017 SDY EDI PO. Conf. Batch.
+
+- AppSource App - A new event OnBeforeReleaseSalesOrder was added to Codeunit 43012003 SDY EDI Import Manager.
 
 - AppSource App - Changes were made to the Export File routine surfaced in the SD Interface EDI Setup Card.
 
 - AppSource App - A change was made to the import of Assisted Data Setup.
 
+- AppSource App - A change was made to the licence expiry notification. The logic for checking for expiry dates was reworked.
+
+- AppSource App - Enhancements were made to the App Request Subscription page.
+
+- AppSource App - ToolTips were updated in the About, Product Activation, and Tenant Subscription pages.
+
+- AppSource App - Additional phrases were added as search phrases for the SD Interface EDI pages.
+  
 ### 7.0.7
 
 #### Enhancements
