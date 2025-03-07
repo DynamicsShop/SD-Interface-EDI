@@ -1,5 +1,21 @@
 ## SD Interface EDI Releases
 
+### 8.0.0
+
+#### Enhancements
+
+- AppSource App - Changes were made to implement DRS on Celtrino Sales Invoices.
+
+- AppSource App - A new Trading Units table was created to calculate DRS lines in Sales Invoice and Credit Memo files by the number of traded units. A Traded Unit Code can be applied to an Item. If an Item has a traded unit assigned, the Qty. per UOM is overwritten in the Sales Invoice and Sales Credit files. If there is no traded unit assigned, the original Qty. per UOM is used.  
+
+- AppSource App - Changes were made to the VAT Identifiers Table. A new Boolean field Group VAT by Caption allows grouping of VAT Amount Lines and Identifiers using the Identifier Caption and VAT % in the xml data file. The VAT Amount Lines are amalgamated into one line grouped by Identifier Caption and VAT %.
+
+- AppSource App - The Sales Invoice Line and the Sales Credit Memo line were extended with two new fields, SDY Shipment Reference and SDY VAT Identifier.
+
+- AppSource App - UI change to the Role Centre to highlight the File Allocation Errors Today in red. 
+
+- AppSource App - An event was added in CodeUnit 43012018 SDY EDI Allocation Mgt. called OnAfterRunAllocation to handle any unallocated files after the File Allocation process.
+
 ### 7.1.0
 
 #### Enhancements
