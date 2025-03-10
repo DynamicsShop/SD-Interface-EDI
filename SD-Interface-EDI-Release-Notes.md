@@ -1,5 +1,13 @@
 ## SD Interface EDI Releases
 
+### 8.0.1
+
+#### Enhancements
+
+- AppSource App - A change was made to the SD Interface EDI Job Queue logic to ensure that the incoming message file is deleted after the Inbound Queue Entry is created in SD Interface EDI even if the Job Queue fails or an error is thrown.
+
+- AppSource App - A new routine was added to delete the file content from the EDI History Detail and the routine to delete the File Transfer Logs was reworked.  
+
 ### 8.0.0
 
 #### Enhancements
