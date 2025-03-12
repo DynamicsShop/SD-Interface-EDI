@@ -1,5 +1,21 @@
 ## SD Interface EDI Releases
 
+### 8.1.0
+
+#### Enhancements
+
+- AppSource App - A change was made to raise an error in the inbound queue that the sales order has already been created if the incoming sales order (Generated File) already exists in the EDI History Detail. This will flag, for situations where the order file is presented more than once, that the incoming order file has already been processed and the order created.
+
+- AppSource App - A new field, History Item Exists, was added to the Queue Detail table.
+
+- AppSource App - A new field was added at VAN level, Files Transferred Per API Call, to transfer one file at a time, or a specific number of files at a time, from Blob Storage to SFTP. Once the file is transferred the blob file is deleted. This applies to both inbound and outbound files.
+
+- AppSource App - Minor changes were made to the SDY EDI File Transfer functionality code.
+
+- AppSource App - 7 day KPI cues for the SFTP File Transfers, with drill through to the File Transfers Log, were added to the Role Centre.
+
+- AppSource App - Two new actions, Deleted Selected and Download File, were added to the Azure File List so files can be viewed before pre-processing or allocation routines have been run.
+
 ### 8.0.1
 
 #### Enhancements
