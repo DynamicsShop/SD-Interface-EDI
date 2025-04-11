@@ -1,5 +1,11 @@
 ## SD Interface EDI Releases
 
+### 8.2.0
+
+#### Bug Fixes
+
+- AppSource App - A fix was made to an error thrown when VAT Identifier settings on the VAN card were grouped by caption.
+
 ### 8.1.0
 
 #### Enhancements
