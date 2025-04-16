@@ -1,5 +1,11 @@
 ## SD Interface EDI Releases
 
+### 8.2.1
+
+#### Bug Fixes
+
+- AppSource App - A fix was made to an error on Sales Order pre processing when the codeunit was run through the Job Queues.
+
 ### 8.2.0
 
 #### Bug Fixes
