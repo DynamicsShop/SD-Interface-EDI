@@ -1,5 +1,27 @@
 ## SD Interface EDI Releases
 
+### 8.3.0
+
+#### Enhancements
+
+- AppSource App - A new action was added to the VAN Card to copy VAT Identifiers from VAN to VAN.
+
+- AppSource App - A new action to copy a Peer from one VAN to another was added to the VAN Card.
+
+- AppSource App - A new VAT Reg No. field was added to the VAN Card.
+
+- AppSource App - A change was made to avoid runtime error when generating messages if a field defined on data builder is missing from the table.
+
+- AppSource App - The Copy Settings From VAN functionality on the File Transfer Settings FastTab in the VAN Card was reworked.
+
+- AppSource App - A new action was added to the Setup Card called View Our Apps. This action opens a page on AppSource pointing to all our Simply Dynamics Ltd apps.
+
+- AppSource App - The Lead Subscription Link from the Request Subscription action in the Product Activation page was updated.
+
+#### Bug Fixes
+
+- AppSource App - The VAN filter on the EDI Statistics FactBox was cleared when the VAN Card was opened. This was fixed.
+
 ### 8.2.1
 
 #### Bug Fixes
