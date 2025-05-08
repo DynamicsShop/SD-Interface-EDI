@@ -10,7 +10,7 @@
 
 - AppSource App - A new VAT Reg No. field was added to the VAN Card.
 
-- AppSource App - A change was made to avoid runtime error when generating messages if a field defined on data builder is missing from the table.
+- AppSource App - A change was made to avoid a runtime error when generating messages if a field defined on data builder is missing from the table.
 
 - AppSource App - The Copy Settings From VAN functionality on the File Transfer Settings FastTab in the VAN Card was reworked.
 
