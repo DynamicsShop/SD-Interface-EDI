@@ -1,5 +1,11 @@
 ## SD Interface EDI Releases
 
+### 8.4.1
+
+#### Enhancements
+
+AppSource App - A new event, OnBeforeSalesHeaderModify, was created in the ProcessSalesOrder function in the SDY EDI Import Manager Codeunit. This event is called just before modifying the Sales Header record during the EDI sales order import and can be used to inject custom logic before the header is finalized, apply peer-specific adjustments and to log or validate header data based on queue or peer context.
+
 ### 8.4.0
 
 #### Enhancements
@@ -812,4 +818,5 @@ AppSource App - A minor change was made to the FTP connection functionality.
 #### Enhancements
 
 - The initial release only handles outbound Sales Invoices in a Celtrino format.
+
 
