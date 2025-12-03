@@ -374,7 +374,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - Functionality was added to the SDY EDI Job Queue Entry Card to allow the new SD Interface EDI document types to be selected from the list of Document Types. 
 
-- BCv21 App - A FactBox similar, to the FactBox in the EPOD Orders page, was added to the Purchase Order Confirmations page. 
+- BCv21 App - A FactBox similar, to the FactBox in the EPOD Orders page, was added to the Purchase Order Confirmations page, . 
 
 - BCv21 App - The Message Document Type was changed from Purchase Invoice to Purchase Order Confirmation. 
 
@@ -400,7 +400,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - The SD Interface EDI Licence Message was updated on first install of the App to prompt the user to activate a free trial and choose Assisted Setup to create demo data. 
 
-- BCv21 App - New Inbound Container and Outbound Container fields were added to Peer Card. 
+- BCv21 App - New Inbound Container and Outbound Container fields were added to the Peer Card. 
 
 - BCv21 App - The flowfield count of Storage Containers setup in SD Interface EDI was added as a Cue in the KPIs FastTab in the EDI Setup Card. 
 
@@ -530,7 +530,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - The SD EDI Worksheet was surfaced on the SD Interface EDI Role Centre. 
 
-- BCv21 App - The action to delete the line in the Engine Versions SubList on the File Structure Engine Card was removed. Users can import files or create a new line and up the version of the File Structure Engine rather than delete the version.
+- BCv21 App - The action to delete the line in the Engine Versions SubList on the File Structure Engine Card was removed. Users can import files or create a new line and up the version of the File Structure Engine rather than delete the version. 
 
 - BCv21 App - The action to delete the version line in the Versions SubList on the Field Mapping Card was removed. Users have to import lines to up the version and keep track of changes made. 
 
@@ -744,6 +744,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 #### Enhancements
 
 - The initial release only handles outbound Sales Invoices in a Celtrino format.
+
 
 
 
