@@ -374,7 +374,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - Functionality was added to the SDY EDI Job Queue Entry Card to allow the new SD Interface EDI document types to be selected from the list of Document Types. 
 
-- BCv21 App - A FactBox similar, to the FactBox in the EPOD Orders page, was added to the Purchase Order Confirmations page, . 
+- BCv21 App - A FactBox similar, to the FactBox in the EPOD Orders page, was added to the Purchase Order Confirmations page. 
 
 - BCv21 App - The Message Document Type was changed from Purchase Invoice to Purchase Order Confirmation. 
 
@@ -383,12 +383,6 @@ AppSource App - A minor change was made to the FTP connection functionality.
 - BCv21 App - The SD Interface EDI Celtrino template files were updated. 
 
 - BCv21 App - Layout changes were made to the SD Interface EDI - Statistics page, headings and fields were grouped together and statistic fields for Purchase Orders and Purchase Invoices were added to the page. 
-
-- BCv21 App - The caption on the SD EDI Blob List Page  was updated to SD Interface EDI Azure File List to match the action in the Role Centre. 
-
-- BCv21 App - The caption on the SD EDI Role Centre was updated from SD Interface EDI to SD Interface EDI - Overview for clarity when searching the Tell Me. 
-
-- BCv21 App - The caption on SD EDI Process Log List was updated from SD Interface EDI Log to SD Interface EDI Process Log for clarity when searching the Tell Me. 
 
 - BCv21 App - Purchase Order, Purchase Order Confirmation, Sales Order Acknowledgement Message Types were created for Batch. 
 
@@ -404,27 +398,15 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - Actions in the EDI Worksheet were regrouped.  
 
-- BCv21 - The message displayed when users choose to generate messages with an expired SD Interface EDI licence was changed. 
-
 - BCv21 App - The SD Interface EDI Licence Message was updated on first install of the App to prompt the user to activate a free trial and choose Assisted Setup to create demo data. 
 
-- BCv21 App - A change was made to the code whereby if an Inbound Sales Order or an EPOD file is ignored on the blob storage, not brought into the queue, the file will not be deleted. 
-
-- BCv21 App - The new Inbound Container and Outbound Container fields on the Peer Card had their property set to additional importance. 
-
-- BCv21 App - Minor layout changes were made to the Storage Setup Card. 
+- BCv21 App - New Inbound Container and Outbound Container fields were added to Peer Card. 
 
 - BCv21 App - The flowfield count of Storage Containers setup in SD Interface EDI was added as a Cue in the KPIs FastTab in the EDI Setup Card. 
-
-- BCv21 App - In the SD EDI Setup Card, to keep related actions grouped together, the Storage Containers action was moved to the first action in the list before the Test Azure Function. 
-
-- BCv21 App - A change was made to allow users create a new Storage Container record from the Container list that is dsiplayed in the drilldown of the Default Storage Container in the EDI Setup card. 
 
 - BCv21 App - The layout of SD Interface EDI - Statistics in the Role Centre was changed. 
 
 - BCv21 App - Functionality was created to allow for different sources to be defined for the container storage. 
-
-- BCv21 App - The File List action on the Role Centre was renamed to Azure File List. 
 
 - BCv21 App - The Sales Header table was extended to stamp Sales Orders that are created by importing EDI files. 
 
@@ -432,11 +414,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - Add an alert notification to display in the Role Centre when the SD Interface EDI licence is due to expire in 5 days. 
 
-- BCv21 App - The About page had extra space at the top of the page. This was fixed. 
-
 - BCv21 App - In the SD Interface EDI Setup card, the caption of the Active Vans cue in the KPIs FastTab was updated to Active VANs. 
-
-- BCv21 App - In the SD Interface EDI Setup Card, text was surfaced on the Function App FastTab as per the text on the Azure Blob Storage FastTab to display when details are validated. 
 
 - BCv21 App - The Captions in the SD EDI Create Queue Items Report were updated. Peer Type was renamed to Type and Peer Key was renamed to No. 
 
@@ -548,13 +526,13 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - The SALES_INVOICE Data Builder with CEL_INV Message Type was reviewed. 
 
-- BCv21 App - Functionality was added not to create blank folder names in file paths when a user inserts too many backslashes in the file path. 
-
 - BCv21 App - The menu groups were removed from the SD EDI Interface Worksheet to allow easier access to the actions on the page. 
 
 - BCv21 App - The SD EDI Worksheet was surfaced on the SD Interface EDI Role Centre. 
 
-- BCv21 App - The action to delete the line in the Engine Versions SubList on the File Structure Engine Card was removed. Users can import files or create a new line and up the version of the File Structure Engine rather than delete the version. 
+- BCv21 App - The action to delete the line in the Engine Versions SubList on the File Structure Engine Card was removed. Users can import files or create a new line and up the version of the File Structure Engine rather than delete the version.
+
+- BCv21 App - The action to delete the version line in the Versions SubList on the Field Mapping Card was removed. Users have to import lines to up the version and keep track of changes made. 
 
 - BCv21 App - The Document Type on the Message Card was changed from P.O.D. Confirmation to POD Confirmation. 
 
@@ -571,56 +549,6 @@ AppSource App - A minor change was made to the FTP connection functionality.
 - BCv21 App - A new file for the SD Interface EDI Message Types to use in the Assisted Setup action for version 6.0.0 of SD Interface EDI was created.  
 
 - BCv21 App - Captions in the Testing FastTab on the SD Interface EDI Setup Card were updated. 
-
-- BCv21 App - The action to delete the version line in the Versions SubList on the Field Mapping Card was removed. Users have to import lines to up the version and keep track of changes made. 
-
-#### Bug Fixes
-
-- BCv21 App - An error was raised in the Assisted Setup import if non sequential enum values exist in the imported data. This was fixed. 
-
-- BCv21 App - Incoming Purchase Order Confirmations with errors were not displayed in the Purchase Order Confirmation list. 
-
-- BCv21 App - Actions were recaptioned on the Role Centre and the duplicate Sales Orders action was removed. 
-
-- BCv21 App - The Document Type for Sales Order Acknowledgement, Purchase Order and Purchase Order Confirmation did not show up in the History Documents list. This was fixed. 
-
-- BCv21 App - In the EPOD List, drilling through on the Missing Orders cue when there was a flowfield value raised an error that there were no orders found to show. This was fixed. 
-
-- BCv21 App - A change was made to the ISV Licence Notification procedure in SD Interface EDI to fix an issue that would raise an error when the language is changed from English to another language. 
-
-- BCv21 App - Fixed an issue where choosing Create Inbound Message in Worksheet with no files in inbound folders raised a specified blob did not exist error. 
-
-- BCv21 App - When processing Outbound Files an attempted to divide by zero error was raised. This was related to the progress dialog and was fixed. 
-
-- BCv21 App - Inbound Messages were being created for a disabled VAN. This was fixed. 
-
-- BCv21 App - Inbound processing was not picking up files at the VAN inbound container level. This was fixed. 
-
-- BCv21 App - The Reprocess queue was not removing temp components from the blob container. This was fixed. 
-
-- BCv21 App - When History files were reprocessed Outbound Messages were not recreated. This was fixed. 
-
-- BCv21 App - A fix was made to an error that was raised when importing a new version of a File Structure Engine that contained a value EPOD_IN. 
-
-- BCv21 App - A Ping Pong message was displaying in the SD Interface EDI Role Centre. 
-
-- BCv21 App - A fix was made to the code for licence key checks on the SD Interface EDI Role Centre. 
-
-- BCv21 App - Deleting multiple queues in the EDI Worksheet using the Remove Selected action raised an error. This was fixed. 
-
-- BCv21 App - An issue was fixed where importing file/creating new File Structure Engine version threw a rec already exists error. 
-
-- BCv21 App - An issue was fixed where the message number series defined for the message was not used as the filename when the outbound files were created.  
-
-- BCv21 App - Documents that were successfully processed through the EDI Queue and moved to History were being recreated again in the EDI Worksheet. This was fixed. 
-
-- BCv21 App - Updating a Code on the VAN Card raised an error. 
-
-- BCv21 App - Drilling down on the Versions field on the Version SubList in the Field Mapping Card showed the Stores page. This drilldown was removed. 
-
-- BCv21 App - The Product Activation page was changed to disable the Activate button unless the Product Key is filled in to avoid an error being raised when Activate is chosen. 
-
-- BCv21 App - The code was reviewed to ensure that Inbound processing of multiple document files was deleting the file post-processing. 
 
 ### 5.1.1
 
@@ -816,6 +744,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 #### Enhancements
 
 - The initial release only handles outbound Sales Invoices in a Celtrino format.
+
 
 
 
