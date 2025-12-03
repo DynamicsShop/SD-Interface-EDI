@@ -332,8 +332,6 @@ AppSource App - A minor change was made to the FTP connection functionality.
 
 - BCv21 App - A change was made to prompt the user when they choose to delete files from the Azure Files FactBox.
 
-- BCv21 App - The Delete Line action in the Azure Files FactBox was removed as the delete action is used to delete the files.
-
 ### 6.0.0
 
 #### Enhancements
@@ -818,6 +816,7 @@ AppSource App - A minor change was made to the FTP connection functionality.
 #### Enhancements
 
 - The initial release only handles outbound Sales Invoices in a Celtrino format.
+
 
 
 
